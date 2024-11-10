@@ -74,14 +74,14 @@ public class Test {
 		
 		
 		List<WebElement> jobID = driver.findElements(By.xpath("//div[contains(@class,\"job-listing-container\")]//div[@data-job-id]//li[contains(text(),'Selenium')][1]"));
-		for (int i =0 ; i<n ;i++ ) {
-			if (jobID[i].isDisplayed()) {
-				
-				 
-			}
-			
-			
-		}
+//		for (int i =0 ; i<n ;i++ ) {
+//			if (jobID[i].isDisplayed()) {
+//				
+//				 
+//			}
+//			
+//			
+//		}
         
 		
 		
